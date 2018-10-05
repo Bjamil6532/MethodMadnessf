@@ -1,3 +1,5 @@
 public class TestFile {
-    palindrome
+    public static void main(String [] args){
+        BjamilLiv.palindrome("racecar");
+    }
 }

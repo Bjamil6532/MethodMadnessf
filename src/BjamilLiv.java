@@ -1,8 +1,10 @@
 public class BjamilLiv {
-    public static void palindrome(String str1){
-        str1.length() = int i;
-        String str2 = str1.substring(i--);
-                if(str2.compareTo(str1)=0)
+    public static boolean palindrome(String str1){
+            int i = str1.length();
+            String str2=0
+        if(str2.length() != str1.length() )
+            str2 = 
+                if(str2.compareTo(str1)==0)
                     return true;
                 else
                     return false;
