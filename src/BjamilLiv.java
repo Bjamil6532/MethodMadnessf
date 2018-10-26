@@ -10,3 +10,16 @@ public class BjamilLiv {
                     return false;
     }
 }
+public static String dateStr(String input){
+        String m = input.substring(0,2);
+        String d = input.substring(3,5);
+        String y = input.substring(6);
+        return d + " - " + m + " - " + y;
+}
+public static int sumUpTo(int input){
+        int sum = 0;
+        for(int i=0; i <= input; i++){
+            sum += i;
+        }
+        return sum;
+}
